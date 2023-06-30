@@ -6,21 +6,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/sledgehamm3r/npc-aus">
+  <a href="https://github.com/sledgehamm3r/givekey">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">NPC Spawn deaktivieren</h3>
+  <h3 align="center">GiveKey Script</h3>
 
   <p align="center">
-    Ein kleiner Script zum deaktivieren der NPCs
+    Ein Script zum weitergeben von Fahrzeugen mit /givekey
     <br />
-    <a href="https://github.com/sledgehamm3r/npc-aus"><strong>Dokumentation ansehen »</strong></a>
+    <a href="https://github.com/sledgehamm3r/givekey"><strong>Dokumentation ansehen »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/sledgehamm3r/npc-aus/issues">Bug melden</a>
+    <a href="https://github.com/sledgehamm3r/givekey">Demo</a>
     ·
-    <a href="https://github.com/sledgehamm3r/npc-aus/issues">Anfrage stellen</a>
+    <a href="https://github.com/sledgehamm3r/givekey/issues">Bug melden</a>
+    ·
+    <a href="https://github.com/sledgehamm3r/givekey/issues">Anfrage stellen</a>
   </p>
 </div>
 
@@ -58,12 +60,12 @@
 ## Über das Projekt
 
 
-Dieses Fivem-Script ermöglicht es Serveradministratoren, alle NPCs (Pedestrians) auf ihrem Fivem-Server mit nur wenigen Zeilen Code zu deaktivieren. Durch das Deaktivieren der NPCs können Serverbetreiber die Performance ihres Servers verbessern und gleichzeitig das Spielerlebnis in bestimmten Szenarien anpassen.
+Dieses Fivem-Script ermöglicht es Spielern, anderen Spielern im selben Fahrzeug die Autoschlüssel zu übergeben und dadurch das Fahrzeug zu überschreiben.
 
 Funktionen:
-* Deaktiviert alle NPCs (Peds) auf dem Fivem-Server.
-* Verbessert die Serverleistung durch Verringerung der NPC-Aktivität.
-* Einfache Integration durch kurzen Scriptcode.
+* Spieler können anderen Spielern im selben Fahrzeug die Autoschlüssel übergeben.
+* Das Übergeben der Schlüssel führt zur Überschreibung des Fahrzeugs, so dass der neue Besitzer das Fahrzeug vollständig kontrolliert.
+* Verwendet den einfachen Befehl "/givekey" für die Schlüsselübergabe und Überschreibung.
 
 
 <p align="right">(<a href="#readme-top">Zurück nach oben</a>)</p>
@@ -81,7 +83,7 @@ Dies ist ein Script für das ESX-Framwork. Demnach sollte dein Server auf der ne
 
 * Lade den neuesten Release herunter.
   ```sh
-  https://github.com/sledgehamm3r/npc-aus/releases
+  https://github.com/sledgehamm3r/givekey/releases
   ```
 
 ### Installation
@@ -93,7 +95,7 @@ _Sobald du den Script heruntergeladen hast kommen wir nun zu den weiteren Schrit
 3. Kopiere den Ordner in deinen Ressourcen Ordner.
 4. Füge deiner server.cfg folgendes hinzu:
    ```sh
-   start ShameV-npc-aus
+   start ShameV-givekey
    ```
 
 <p align="right">(<a href="#readme-top">Zurück nach Oben</a>)</p>
@@ -103,7 +105,7 @@ _Sobald du den Script heruntergeladen hast kommen wir nun zu den weiteren Schrit
 <!-- USAGE EXAMPLES -->
 ## Benutzung
 
-Es ist keinerlei Bedienung erforderlich - der Script verhindert ab Serverstart das Spawnen von Peds.
+Mit dem Befehl /givekey kann ein Spieler einem anderen sich im Auto befindlichen Spieler das Auto überschreiben. Der Besitzer des Autos muss hierfür auch im Auto sitzen. 
 
 
 
@@ -155,7 +157,7 @@ Veröffentlicht unter der MIT-Lizenz. Weitere Informationen findest du in der Da
 
 sledgehamm3r - [DISCORD @sledge_hamm3rr] - info@shamev.de
 
-Project Link: [https://github.com/sledgehamm3r/npc-aus](https://github.com/sledgehamm3r/npc-aus)
+Project Link: [https://github.com/sledgehamm3r/givekey](https://github.com/sledgehamm3r/givekey)
 
 <p align="right">(<a href="#readme-top">Zurück nach Oben</a>)</p>
 
